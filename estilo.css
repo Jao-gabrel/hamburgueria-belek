@@ -149,7 +149,7 @@ h1#tituloLogo{
 
 #promotionBanner {
     
-    width: 990px;
+    width: 800px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
     background-size: 600px 180px;
@@ -195,7 +195,7 @@ h1#tituloLogo{
     margin: 0;
     position: absolute;
     text-shadow: 2px 2px 4px #ff6601;
-    margin-left: 490px;
+    margin-left: 290px;
     top: 130px;
     width: 500px;
 
