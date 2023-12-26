@@ -289,6 +289,8 @@ div#maisVendidos{
     
     height: 110px;
     right: 3%;
+    background-color: orangered;
+    border-radius: 90%;
     
 }
 
@@ -334,16 +336,14 @@ div#maisVendidos{
 #ImgEntrega {
 
     max-width: 100px;
-    max-height: 100px;
-
+    max-height: 100px;
 }
+
 #fundo {
     height: 20px;
     width: 100%;
     background-color: black;
-    position: center;
-    
-    ;
+    position: center;
 }
 #f1,#f2,#f3 {
     text-align: center;
@@ -372,13 +372,13 @@ div#maisVendidos{
     background-position: right;
 }
 #bobo{
-    background-color:orangered;
+    background-color:black;
     
 }
 #fundo2 {
     height: 20px;
     width: 100%;
-    background-color: black;
+    background-color: orangered;
     position: center;
     
 }
