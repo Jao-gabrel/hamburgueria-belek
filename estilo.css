@@ -341,7 +341,7 @@ div#maisVendidos{
 
 #fundo {
     height: 20px;
-    width: 1108px;
+    width: 100%;
     background-color: orangered;
 }
 
@@ -383,7 +383,7 @@ div#maisVendidos{
 
 #fundo2 {
     height: 20px;
-    width: 1108px;
+    width: 100%;
     background-color: orangered;
     
 }
