@@ -239,7 +239,7 @@ h1#tituloLogo{
 
 div#maisVendidos{
 
-    
+    margin-left: 6%;
     float: left;
     
 
@@ -341,7 +341,7 @@ div#maisVendidos{
 
 #fundo {
     height: 20px;
-    width: 100%;
+    width: 1600px;
     background-color: orangered;
 }
 
@@ -350,6 +350,7 @@ div#maisVendidos{
     border-radius: 20px;
 
 }
+
 #letra{
     position: relative;
     color: #ffffff;
@@ -357,28 +358,32 @@ div#maisVendidos{
     font-size: 50px;
     
 }
+
 #wh {
     background-color: orangered;
     border-radius: 90%;
 }
+
 #olg {
    
  height: 450px;
  width: 650px;
    
 }
+
 #ka{
     background-image: url(Logo\ para\ hamburgueria\ gourmet\ moderno\ amarelo\ e\ preto_page-0001.jpg); 
     background-position: right;
 }
+
 #bobo{
     background-color:black;
     
 }
+
 #fundo2 {
     height: 20px;
     width: 1600px;
     background-color: orangered;
-    position: center;
     
 }
