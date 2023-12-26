@@ -148,7 +148,6 @@ h1#tituloLogo{
 }
 
 #promotionBanner {
-    max-width: 760px:
     width: 760px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
@@ -241,7 +240,7 @@ h1#tituloLogo{
 
 div#maisVendidos{
 
-    margin-left: 16%;
+    margin-left: 13%;
     float: left;
 
 }
