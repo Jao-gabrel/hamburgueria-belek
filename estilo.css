@@ -151,7 +151,7 @@ h1#tituloLogo{
     width: 700px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
-    margin-left: 30px:
+    margin-left: 0px:
 }
 
 #promocaoH1 {
@@ -342,7 +342,7 @@ div#maisVendidos{
 #fundo {
     height: 20px;
     width: 100%;
-    background-color: black;
+    background-color: orangered;
     position: center;
 }
 #f1,#f2,#f3 {
@@ -377,7 +377,7 @@ div#maisVendidos{
 }
 #fundo2 {
     height: 20px;
-    width: 100%;
+    width: 1600px;
     background-color: orangered;
     position: center;
     
