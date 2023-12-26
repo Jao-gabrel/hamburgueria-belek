@@ -342,9 +342,9 @@ div#maisVendidos{
 #fundo {
     height: 20px;
     width: 100%;
-    background-color: orangered;
-    position: center;
+    background-color: orangered;
 }
+
 #f1,#f2,#f3 {
     text-align: center;
     border-radius: 20px;
