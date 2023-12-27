@@ -60,12 +60,12 @@ h1#tituloLogo{
   @keyframes slidein {
     from {
       margin-left: 300%;
-      width: 450px;
+      width: 550px;
     }
   
     to {
       margin-top: 11px;
-      width: 450px;
+      width: 550px;
     }
 }
 
