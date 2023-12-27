@@ -90,7 +90,7 @@ h1#tituloLogo{
     width: 180px;
     font-size: 20px;
     left: 72%;
-    margin-left: auto;
+    margin-left: auto;
     margin-right: -1%;
     line-height: 90px;
 
@@ -394,4 +394,25 @@ td {
 img {
     position: relative;
     box-shadow: 0 0 20px orangered;
+}
+
+.download-btn {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: red;
+}
+#divi {
+    text-align: center;
 }
