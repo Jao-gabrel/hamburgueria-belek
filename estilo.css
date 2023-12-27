@@ -87,7 +87,7 @@ h1#tituloLogo{
 .listaMenu {
     
     float: right;
-    width: 180px;
+    width: 380px;
     font-size: 20px;
     left: 72%;
     margin-left: auto;
@@ -145,11 +145,8 @@ h1#tituloLogo{
 }
 
 #content {
-    margin-left: 12%;
     width: 60%;
     position: absolute;
-    
-
 }
 
 #promotionBanner {
@@ -157,7 +154,6 @@ h1#tituloLogo{
     width: 700px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
-    margin-left: 0px;
 }
 
 #promocaoH1 {
@@ -200,7 +196,7 @@ h1#tituloLogo{
     margin: 0;
     position: absolute;
     text-shadow: 2px 2px 4px #ff6601;
-    margin-left: 490px;
+    margin-left: 130px;
     top: 130px;
     width: 500px;
 
