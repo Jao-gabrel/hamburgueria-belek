@@ -85,11 +85,9 @@ h1#tituloLogo{
 }
 
 .listaMenu {
-    
     float: right;
     width: 380px;
     font-size: 80px;
-    line-height: 90px;
 }
 
 .listaMenu li {
