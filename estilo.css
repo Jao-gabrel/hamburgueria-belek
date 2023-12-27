@@ -141,7 +141,6 @@ h1#tituloLogo{
 }
 
 #content {
-    margin-left: 12%;
     width: 60%;
     position: absolute;
 
@@ -336,13 +335,15 @@ div#maisVendidos{
 #ImgEntrega {
 
     max-width: 100px;
-    max-height: 100px;
+    max-height: 100px;
+
 }
 
 #fundo {
     height: 20px;
     width: 100%;
-    background-color: orangered;
+    background-color: orangered;
+
 }
 
 #f1,#f2,#f3 {
