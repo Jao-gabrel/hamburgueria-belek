@@ -154,9 +154,10 @@ h1#tituloLogo{
 
 #promotionBanner {
     
-    width: 990px;
+    width: 700px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
+    margin-left: 0px;
 }
 
 #promocaoH1 {
