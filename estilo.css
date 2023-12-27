@@ -4,6 +4,9 @@ body {
     font-family: Candara, Helvetica, sans-serif;    
     margin: 0;
     background-color: #000000;
+    position:absolute;
+    width:100%;
+    height:100%;
 
 }
 
@@ -15,7 +18,7 @@ body {
 
 #header {
 
-    width: 70%;
+    width: 100%;
     height: 137px;
     padding-top: 10px;
 
@@ -37,6 +40,7 @@ body {
 
     width: 30%;
     float: left;
+    border-radius: 50%;
 
 }
 
@@ -112,7 +116,7 @@ h1#tituloLogo{
     text-decoration: none;
     height: 50px;
     line-height: 30px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 15px;
 
 }
@@ -141,16 +145,18 @@ h1#tituloLogo{
 }
 
 #content {
+    margin-left: 12%;
     width: 60%;
     position: absolute;
+    
 
 }
 
 #promotionBanner {
-    width: 700px;
+    
+    width: 990px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
-    margin-left: 0px:
 }
 
 #promocaoH1 {
@@ -193,7 +199,7 @@ h1#tituloLogo{
     margin: 0;
     position: absolute;
     text-shadow: 2px 2px 4px #ff6601;
-    margin-left: 190px;
+    margin-left: 490px;
     top: 130px;
     width: 500px;
 
@@ -222,6 +228,7 @@ h1#tituloLogo{
     width: 350px;
     color: #000000;
     font-size: 20px;
+    text-align: left;
 
 }
 
@@ -238,39 +245,27 @@ h1#tituloLogo{
 
 div#maisVendidos{
 
-    margin-left: 6%;
+    margin-left: 16%;
     float: left;
-    
 
-}
-
-#areaProdutos table-container{
-
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-
-}
-
-@media screen and (max-width: 768px){
-    #areaProdutos table-container{
-        width: 100%;
-        flex-direction: column;
-    }
-    
 }
 
 .tituloProduto {
     color: #ffffff;
     font-weight: bold;
     margin: 0;
+    font-style: italic;
+    
 
 }
 
 .precoProduto {
-    color: #ffffff;
+    color:orangered;
     margin: 0;
-
+    font-style: italic;
+    background-color: #000000;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #entrega {
@@ -287,7 +282,7 @@ div#maisVendidos{
 #entrega img {
     
     height: 110px;
-    right: 3%;
+    right: 3%; 
     background-color: orangered;
     border-radius: 90%;
     
@@ -338,20 +333,19 @@ div#maisVendidos{
     max-height: 100px;
 
 }
-
 #fundo {
     height: 20px;
     width: 100%;
     background-color: orangered;
-
+    position: center;
+    
+    ;
 }
-
 #f1,#f2,#f3 {
     text-align: center;
     border-radius: 20px;
 
 }
-
 #letra{
     position: relative;
     color: #ffffff;
@@ -359,32 +353,50 @@ div#maisVendidos{
     font-size: 50px;
     
 }
-
 #wh {
     background-color: orangered;
     border-radius: 90%;
 }
-
 #olg {
-   
- height: 450px;
- width: 650px;
-   
+   text-align: center;
 }
-
 #ka{
-    background-image: url(Logo\ para\ hamburgueria\ gourmet\ moderno\ amarelo\ e\ preto_page-0001.jpg); 
-    background-position: right;
+    text-align: center;
+    background-image: url(vecteezy_chamas-de-fogo-em-fundo-preto_6893495.jpg);
+    background-size: cover;
 }
-
 #bobo{
-    background-color:black;
+    background-color: #000000;
     
 }
-
 #fundo2 {
     height: 20px;
-    width: 750px;
-    background-color: orangered;
+    width: 1600px;
+    background-color: orangered ;
+    position: center;
     
+}
+td {
+    height: 100px;
+    width: 600px;
+    background-color: #000000 ;
+    border-radius: 20px;
+    
+}
+.balloon {
+    display: none;
+    position: sticky;
+    background-color:orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px ;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+img {
+    position: relative;
+    box-shadow: 0 0 20px orangered;
 }
