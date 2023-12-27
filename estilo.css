@@ -367,14 +367,13 @@ div#maisVendidos{
     background-size: cover;
 }
 #bobo{
-    background-color: #000000;
+    background-color: black;
     
 }
 #fundo2 {
     height: 20px;
-    width: 1600px;
+    width: 750px;
     background-color: orangered ;
-    position: center;
     
 }
 td {
