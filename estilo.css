@@ -92,6 +92,7 @@ h1#tituloLogo{
     left: 72%;
     margin-left: 190px;
     line-height: 90px;
+    margin-bottom: 100%;
 
 }
 
@@ -149,7 +150,7 @@ h1#tituloLogo{
 
 #promotionBanner {
     
-    width: 700px;
+    width: 750px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
 }
@@ -194,7 +195,7 @@ h1#tituloLogo{
     margin: 0;
     position: absolute;
     text-shadow: 2px 2px 4px #ff6601;
-    margin-left: 130px;
+    margin-left: 260px;
     top: 130px;
     width: 500px;
 
