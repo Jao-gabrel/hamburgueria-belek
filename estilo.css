@@ -1,4 +1,4 @@
-body {
+debody {
 
     background-color: rgb(255, 255, 255);
     font-family: Candara, Helvetica, sans-serif;    
@@ -423,5 +423,5 @@ img {
     width: 80%;
 }
 #espaco{
-    padding:600px
+   padding:30px;
 }
