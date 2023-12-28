@@ -417,3 +417,7 @@ img {
 #divi {
     text-align: center;
 }
+
+#divi img{
+    width: 61%;
+}
