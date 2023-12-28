@@ -397,9 +397,9 @@ img {
 }
 
 .download-btn {
-    background-color: orangered;
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -413,6 +413,7 @@ img {
 .download-btn:hover {
     background-color: red;
 }
+
 #divi {
     text-align: center;
 }
