@@ -424,5 +424,6 @@ img {
 }
 #espaco{
    height:500px;
-   windth:500px;
+   windth:500px
+   background-color: red;
 }
