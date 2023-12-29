@@ -268,12 +268,12 @@ div#maisVendidos{
 
 #entrega {
 
-    position: relative;
-    bottom: 200px;
+    position: fixed;
+    bottom: 30px;
     right: 10px;
     height: 100px;
     width: 300px;
-    
+    margin-bottom: 20px;
 
 }
 
