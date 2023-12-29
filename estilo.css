@@ -269,7 +269,7 @@ div#maisVendidos{
 #entrega {
 
     position: fixed;
-    bottom: 30px;
+    bottom: 120px;
     right: 10px;
     height: 100px;
     width: 300px;
@@ -423,12 +423,3 @@ img {
 #divi img{
     width: 80%;
 }
-#espaco{
-   height:250px;
-   windth:250px;
-}
-#espaco2{
-   height:250px;
-   windth:250px;
-}
-
