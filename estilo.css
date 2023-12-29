@@ -245,6 +245,7 @@ div#maisVendidos{
 
     margin-left: 16%;
     float: left;
+    margin-bottom: 20%
 
 }
 
@@ -269,7 +270,7 @@ div#maisVendidos{
 #entrega {
 
     position: fixed;
-    bottom: 120px;
+    bottom: 30px;
     right: 10px;
     height: 100px;
     width: 300px;
