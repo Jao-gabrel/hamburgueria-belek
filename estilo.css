@@ -336,7 +336,6 @@ div#maisVendidos{
     height: 20px;
     width: 100%;
     background-color: orangered;
-    position: center;
     
     ;
 }
@@ -370,7 +369,7 @@ div#maisVendidos{
 }
 #fundo2 {
     height: 20px;
-    width: 750px;
+    width: 100%;
     background-color: orangered ;
     
 }
