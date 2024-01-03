@@ -184,6 +184,7 @@ h1#tituloLogo{
 #content {
     width: 60%;
     position: absolute;
+    margin-left: 200px;
 }
 
 #promotionBanner {
