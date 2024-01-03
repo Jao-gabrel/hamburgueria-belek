@@ -16,6 +16,10 @@ body {
         body {
             font-size: 14px;
         }
+    
+        #content  {
+            margin-left: 0%;
+        }
     }
 
 *{
