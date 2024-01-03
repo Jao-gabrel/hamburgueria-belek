@@ -12,6 +12,12 @@ body {
 
 }
 
+@media screen and (max-width: 480px) {
+        body {
+            font-size: 14px;
+        }
+    }
+
 *{
 
     width: auto;
@@ -145,9 +151,40 @@ h1#tituloLogo{
     
 }
 
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 9px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2.3;
+  outline: transparent;
+  padding: 0px 0px 0px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
 #content {
     width: 60%;
     position: absolute;
+    margin-left: 200px;
 }
 
 #promotionBanner {
@@ -155,7 +192,7 @@ h1#tituloLogo{
     width: 750px;
     height: 200px;
     background-image: url(download\ \(7\).jpg);
-    margin:  0 0 0 70px;
+    margin:  0 0 0 80px;
 }
 
 #promocaoH1 {
@@ -245,7 +282,7 @@ h1#tituloLogo{
 div#maisVendidos{
 
     margin-left: 16%;
-    float: left;
+    float: right;
     margin-bottom: 40%
 
 }
@@ -394,6 +431,8 @@ td {
     line-height: 20px;
     transition: opacity 0.3s ease-in-out;
 }
+
+
 img {
     position: relative;
     box-shadow: 0 0 20px orangered;
