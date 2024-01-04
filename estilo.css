@@ -18,10 +18,10 @@ body {
             
         }
         #promocaoValor {
-            margin-left: 190px;
+            margin-left: 120px;
         }
         #promocaoH1 {
-            margin-left: -114px;
+            margin-left: -84px;
             position: absolute;
             margin-top: 20px;
         }
@@ -222,7 +222,7 @@ h1#tituloLogo{
     margin: 0;
     position: absolute;
     text-shadow: 2px 2px 4px #ff6601;
-    margin-left: 390px;
+    margin-left: 450px;
     top: 110px;
     width: 500px;
 
