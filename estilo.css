@@ -177,7 +177,7 @@ h1#tituloLogo{
     margin-left: -80px;
     position: absolute;
     float: left;
-    text-shadow: 2px 2px 4px #ff6601;
+    text-shadow: 3px 3px 6px #ff6601;
     margin-top: 20px;
     width: 800px;
 }
@@ -187,7 +187,7 @@ h1#tituloLogo{
     font-size: 48px;
     margin: 0;
     position: absolute;
-    text-shadow: 2px 2px 4px #ff6601;
+    text-shadow: 3px 3px 6px #ff6601;
     margin-left: 490px;
     top: 120px;
     width: 700px;
@@ -198,6 +198,7 @@ h1#tituloLogo{
     50% { opacity: 0.5; }
     100% { opacity: 1; }
 }
+
 #promocaoH1,
 #promocaoValor {
   padding: 0 0;
@@ -247,6 +248,7 @@ h1#tituloLogo{
     color: #000000;
     font-size: 20px;
     text-align: left;
+    
 }
 
 #areaProdutos td img {
@@ -254,8 +256,9 @@ h1#tituloLogo{
     height: 200px;
     margin-top: 5px;
     border-radius: 50%;
-    border: 2px solid #000000;
+    border: 2px solid rgba(255, 68, 0, 0.445);
     padding-left: 0%;
+    box-shadow: 0 0 50px orangered;
 }
 
 div#maisVendidos{
@@ -287,13 +290,16 @@ div#maisVendidos{
     height: 100px;
     width: 300px;
     margin-bottom: 20px;
+    filter: drop-shadow(0px 0px 50px
+    rgb(255, 69, 0));
 }
 
 #entrega img {   
     height: 110px;
     right: 3%; 
     background-color: orangered;
-    border-radius: 90%;   
+    border-radius: 90%;
+    box-shadow: 0 0 80px orangered;
 }
 
 #tel {
@@ -358,7 +364,7 @@ div#maisVendidos{
 #olg {
    text-align: center;
    filter: drop-shadow(0px 0px 10px
-   rgba(255, 0, 0, 0.5));
+   rgba(255,69, 0));
 }
 
 #ka{
@@ -374,8 +380,7 @@ div#maisVendidos{
 #fundo2 {
     height: 20px;
     width: 100%;
-    background-color: orangered ;
-    
+    background-color: orangered ;   
 }
 
 td {
@@ -383,7 +388,6 @@ td {
     width: 600px;
     background-color: #000000 ;
     border-radius: 20px;
-    
 }
 
 .balloon {
@@ -398,6 +402,7 @@ td {
     font-size: 16px;
     line-height: 20px;
     transition: opacity 0.3s ease-in-out;
+    box-shadow: 0 0 80px orangered;
 }
 
 
