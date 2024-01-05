@@ -1,7 +1,5 @@
 body {
-
-    background-color: black
-    ;
+    background-color: black;
     font-family: Candara, Helvetica, sans-serif;    
     margin: 0;
     background-color: #000000;
@@ -9,7 +7,6 @@ body {
     width:100%;
     height:100%;
     margin-bottom:20px
-
 }
 
 @media screen and (max-width: 480px) {
@@ -18,55 +15,45 @@ body {
             
         }
         #promocaoValor {
-            margin-left: 120px;
+            margin-left: 190px;
         }
         #promocaoH1 {
-            margin-left: -84px;
+            margin-left: -114px;
             position: absolute;
             margin-top: 20px;
         }
     }
 
 *{
-
     width: auto;
-
 }
 
 #header {
-
     width: 100%;
     height: 137px;
     padding-top: 10px;
-
 }
 
 #logo {
-
     width: 340px;
     height: 110px;
     position: center;
     left: 60%;
     margin-left: 10px;
     float: inline-start;
-
 }
 
 
 #logoImg {
-
     width: 30%;
     float: left;
     border-radius: 50%;
-
 }
 
 h1#tituloLogo{
-
     width: 550px;
     margin-top: 11px;
     border-radius: 10%;
-
 }
 
 h1#tituloLogo{
@@ -86,78 +73,60 @@ h1#tituloLogo{
     }
 }
 
-#tituloLogo {
-    
+#tituloLogo {   
     position: relative;
     color: #ffffff;
     margin-left: 35%;
     font-size: 50px;
-
 }
 
 #menu{
-
-    width: 100;
-    
+    width: 100;    
 }
 
-.listaMenu {
-    
+.listaMenu {   
     float: right;
     width: 180px;
     font-size: 20px;
     left: 72%;
     margin-left: auto;
     margin-right: -1%;
-    line-height: 90px;
-
+    line-height: 20px;
 }
 
 
 .listaMenu li {
-
     display: inline-block;
-
 }
 
 #cont .listaMenu{
-
     right: 20%;
     position: right;
     display: inline-block;
-
 }
 
 .listaMenu li a {
-
     text-decoration: none;
     height: 50px;
-    line-height: 30px;
+    line-height: 50px;
     padding-right: 15px;
-
 }
 
 .listaMenu li a:link,
 .listaMenu li a:visited {
-
     color: white;
-
 }
 
 .listaMenu li a:hover {
-
     color: #4b4b4b;
     background-color: white;
-
 }
 
 #menuAtual:link,
 #menuAtual:visited {
-
     text-transform: uppercase;
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);   
 }
 
 .button-62 {
@@ -196,103 +165,103 @@ h1#tituloLogo{
     margin-left: 200px;
 }
 
-#promotionBanner {
-    
+#promotionBanner {  
     width: 880px;
     height: 200px;
 }
 
 #promocaoH1 {
-
     color: rgb(255, 255, 255);
     font-size: 64px;
     margin: 0;
-    margin-left: 60px;
+    margin-left: -80px;
     position: absolute;
     float: left;
     text-shadow: 2px 2px 4px #ff6601;
     margin-top: 20px;
-
+    width: 800px;
 }
 
 #promocaoValor {
-
     color: rgb(247, 247, 247);
     font-size: 48px;
     margin: 0;
     position: absolute;
     text-shadow: 2px 2px 4px #ff6601;
-    margin-left: 450px;
-    top: 110px;
-    width: 500px;
+    margin-left: 490px;
+    top: 120px;
+    width: 700px;
+}
 
+@keyframes btn-pisca {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+#promocaoH1,
+#promocaoValor {
+  padding: 0 0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px; 
+  -webkit-animation: btn-pisca .9s linear infinite;
+  -moz-animation: btn-pisca .9s linear infinite;
+  -ms-animation: btn-pisca .9s linear infinite;
+  -o-animation: btn-pisca .9s linear infinite;
+  animation: btn-pisca .9s linear infinite;
 }
 
 #areaProdutos td img,
 #areaProdutos td {
-
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
-
 }
 
 #areaProdutos td img:hover {
-
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
-
 }
 
 #tituloConteudo {
-
     color: #000000;
     text-align: center;
     margin-bottom: 10px;
     background-color: #ffffff;
     border-radius: 5px 5px 5px 5px;
-
 }
 
 #areaProdutos table {
-
     border-spacing: 5px;
     border-collapse: separate;
     text-align: center;
-
 }
 
 #areaProdutos td {    
-
     width: 350px;
     color: #000000;
     font-size: 20px;
     text-align: left;
-
 }
 
 #areaProdutos td img {
-
     width: 200px;
     height: 200px;
     margin-top: 5px;
     border-radius: 50%;
     border: 2px solid #000000;
     padding-left: 0%;
-
 }
 
 div#maisVendidos{
-
     margin-left: 16%;
     float: right;
     margin-bottom: 40%
-
 }
 
 .tituloProduto {
@@ -300,8 +269,6 @@ div#maisVendidos{
     font-weight: bold;
     margin: 0;
     font-style: italic;
-    
-
 }
 
 .precoProduto {
@@ -314,27 +281,22 @@ div#maisVendidos{
 }
 
 #entrega {
-
     position: fixed;
     bottom: 30px;
     right: 10px;
     height: 100px;
     width: 300px;
     margin-bottom: 20px;
-
 }
 
-#entrega img {
-    
+#entrega img {   
     height: 110px;
     right: 3%; 
     background-color: orangered;
-    border-radius: 90%;
-    
+    border-radius: 90%;   
 }
 
 #tel {
-
     position: absolute;
     left: 100px;
     height: 80px;
@@ -345,80 +307,77 @@ div#maisVendidos{
     padding-bottom: 0px;
     border-radius: 35px;
     border: #ffffff 5px;
-
 }
 
 #tel h4 {
-
     margin: 0;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 #tel h5 {
-
     margin: 0;
     margin-top: 10px;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 #tel a {
-
     color: white;
     text-decoration: none;
-
 }
 
 #ImgEntrega {
-
     max-width: 100px;
     max-height: 100px;
-
 }
+
 #fundo {
     height: 20px;
     width: 100%;
     background-color: orangered;
-    
-    ;
 }
+
 #f1,#f2,#f3 {
     text-align: center;
     border-radius: 20px;
-
 }
+
 #letra{
     position: relative;
     color: #ffffff;
     text-align: center;
-    font-size: 50px;
-    
+    font-size: 50px;    
 }
+
 #wh {
     background-color: orangered;
     border-radius: 90%;
 }
+
 #olg {
    text-align: center;
+   filter: drop-shadow(0px 0px 10px
+   rgba(255, 0, 0, 0.5));
 }
+
 #ka{
     text-align: center;
     background-image: url(vecteezy_chamas-de-fogo-em-fundo-preto_6893495.jpg);
     background-size: cover;
 }
+
 #bobo{
     background-color: black;
-    
 }
+
 #fundo2 {
     height: 20px;
     width: 100%;
     background-color: orangered ;
     
 }
+
 td {
     height: 100px;
     width: 600px;
@@ -426,6 +385,7 @@ td {
     border-radius: 20px;
     
 }
+
 .balloon {
     display: none;
     position: sticky;
@@ -443,7 +403,6 @@ td {
 
 img {
     position: relative;
-    box-shadow: 0 0 20px orangered;
 }
 
 .download-btn {
@@ -470,4 +429,5 @@ img {
 
 #divi img{
     width: 80%;
+    box-shadow: 0 0 80px orangered;
 }
