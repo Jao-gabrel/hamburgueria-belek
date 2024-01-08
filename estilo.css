@@ -16,13 +16,13 @@ body {
        
         #promocaoValor {
             margin-left: 0px;
-            font-size:24px;
+            font-size:14px;
         }
         #promocaoH1 {
             margin-left: -100px;
             position: absolute;
             margin-top: 20px;
-            fonte-size:30px;
+            fonte-size:20px;
         }
     }
     
