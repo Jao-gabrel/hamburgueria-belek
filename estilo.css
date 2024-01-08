@@ -12,22 +12,23 @@ body {
 @media screen and (max-width: 380px) {
         body {
             font-size: 4px;
+        }
             
        
         #promocaoValor {
             margin-left: 0px;
-            font-size:14px;
+            font-size:4px;
         }
         #promocaoH1 {
             margin-left: -100px;
             position: absolute;
             margin-top: 20px;
-            fonte-size:20px;
+            fonte-size:10px;
         }
     }
     
 }
-}
+
 
 
 *{
