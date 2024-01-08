@@ -9,21 +9,6 @@ body {
     margin-bottom:20px;
 }
 
-@media screen and (max-width: 480px) {
-        body {
-            font-size: 14px;
-            
-        }
-        #promocaoValor {
-            margin-left: 10px;
-        }
-        #promocaoH1 {
-            margin-left: 0px;
-            position: absolute;
-            margin-top: 20px;
-        }
-    }
-
 *{
     width: auto;
 }
